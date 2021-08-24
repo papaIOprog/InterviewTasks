@@ -44,7 +44,7 @@ class Api
 
 let user =
 {
-	id		: 20,
+	id	: 20,
 	name	: 'John Dow',
 	role	: 'QA',
 	salary	: 100
