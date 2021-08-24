@@ -35,7 +35,7 @@ class Api
 		let result = '';
 
 		result = template.replace(/%(.*?)%/g, function(a, b)  {
-    return object[b]});
+    return encodeURIComponent(object[b])});
 
 		return result;
 	}
